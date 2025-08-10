@@ -33,7 +33,7 @@ export function Sidebar({ activeTab, setActiveTab, collapsed}: SidebarProps) {
       <div className="p-4 border-b border-gray-700">
         {!collapsed && (
           <>
-            <h2 className="text-xl font-bold text-white">Business Services</h2>
+            <h2 className="text-xl font-bold text-white">Bharat Comply</h2>
             <p className="text-xs text-gray-400">Admin Panel</p>
           </>
         )}
