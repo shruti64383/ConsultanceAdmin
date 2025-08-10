@@ -32,7 +32,8 @@ export default function AdminPanel() {
 
         setUserEmail(res.data.user.email);
         setUserName(res.data.user.name);
-        setIsAuthenticated(true)
+        if(res.data.user.role === "admin") setIsAuthenticated(true)
+        else router.push(`${process.env.NEXT_PUBLIC_BASE_URL}/login`);
 
       } catch (error: any) {
          
