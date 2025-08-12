@@ -111,7 +111,7 @@ export function CustomerDetails({ email, onBack }: CustomerDetailsProps) {
       try {
         setLoading(true);
         //window.alert("Fetching services for Email: " + email)
-        const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/services/get/${email}`);
+        const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/services/email/${email}`);
 
         if (!response.ok) {
           //window.alert("Kuch ni mila")
