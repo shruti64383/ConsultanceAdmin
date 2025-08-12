@@ -4,9 +4,9 @@ import { GeistMono } from 'geist/font/mono'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
-  generator: 'v0.dev',
+  title: 'Bharat Comply',
+  description: 'Bharat Comply provides hassle-free Chartered Accountant services across India — from GST, Income Tax Filing, Company Registration, and Compliance Management to personalized business advisory. Trusted by startups, SMEs, and individuals for reliable and timely financial solutions.',
+  generator: 'Bharat Comply',
 }
 
 export default function RootLayout({
